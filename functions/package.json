@@ -1,0 +1,52 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.4",
+    "@sendgrid/mail": "^7.4.2",
+    "bcrypt": "^5.0.0",
+    "busboy": "^0.3.1",
+    "child-process-promise": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.13.2",
+    "fs": "0.0.1-security",
+    "geolib": "^3.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mime": "^2.5.0",
+    "mkdirp-promise": "^5.0.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "node": "^14.15.2",
+    "nodemailer": "^6.4.17",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "stream": "0.0.2",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^4.3.2",
+    "swagger-ui-express": "^4.1.6",
+    "twilio": "^3.55.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "firebase-functions-test": "^0.2.3"
+  },
+  "private": true
+}
